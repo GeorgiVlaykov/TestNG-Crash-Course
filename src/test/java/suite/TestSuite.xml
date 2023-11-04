@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="true" name="TestAnnotations">
+    <test verbose="2" preserve-order="true" name="TestAnnotations" time-out="5000">
         <classes>
             <class name="annotations.TestAnnotations"></class>
             <class name="annotations.TestAnnotations2"></class>
