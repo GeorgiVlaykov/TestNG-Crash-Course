@@ -19,7 +19,7 @@ public class DependenciesTest {
 //        Assert.assertTrue(true, "String message");
     }
 
-    @Test( groups = "group1")
+    @Test(groups = "group1")
     public void testNameB() {
         System.out.println("testNameB");
 //        Assert.assertTrue(false, "String message");

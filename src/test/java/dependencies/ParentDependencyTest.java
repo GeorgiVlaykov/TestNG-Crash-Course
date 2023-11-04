@@ -3,7 +3,7 @@ package dependencies;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ParentDependencyTest extends DependenciesTest{
+public class ParentDependencyTest extends DependenciesTest {
 
     @Test(dependsOnMethods = "testNameA")
     public void testNameE() {
